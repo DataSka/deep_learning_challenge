@@ -1,0 +1,17 @@
+The purpose of the analysis is to show the nonprofit foundation, Alphabet Soup, what applicants will have success with funding.
+Data Procession
+
+•	The model target includes the “is successful” variable.
+•	The model features include the other rows of data, including:
+        Status, ask amt, application types, affiliation, classification, use case, organization, income amt, and special considerations.
+
+•	The rows “EIN” and “Name” have been dropped because they were neither targets nor features.
+
+Compiling, Training and Evaluating the Model
+•	I used 150 neurons with 2 layers, I tried to increase the number of neurons to increase accuracy because more neurons might increase the accuracy.  
+•	One of the activation functions used was ReLU, Rectified Linear Unit, which increases performance because this model is easier to train.
+•	I used the sigmoid function in the outer layer because it is used to predict probability. 
+•	I was not able to increase performance, after trying several times, I applied the keras-tuner to see if there was a way to increase accuracy but that did not result in an increase either.
+        
+
+
